@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/yogiis98/mongodb-winston-transport.git"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "public": true,
   "description": "Mongodb transport for mongodb",
   "main": "./dist/main.min.js",
