@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/yogiis98/mongodb-winston-transport.git"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "public": true,
   "description": "Mongodb transport for mongodb",
   "main": "./dist/main.min.js",
@@ -38,7 +38,8 @@
     "winston": "^3.0.0"
   },
   "files": [
-    "dist/main.min.js"
+    "dist",
+    "example"
   ],
   "keywords": [
     "mongodb",
@@ -51,7 +52,7 @@
     "logging",
     "tools"
   ],
-  "typings": "./mongodb-winston-transport.d.ts",
+  "typings": "./dist/mongodb-winston-transport.d.ts",
   "dependencies": {
     "mongodb": "^3.5.5",
     "winston-transport": "^4.3.0"
