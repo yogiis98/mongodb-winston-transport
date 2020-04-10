@@ -1,0 +1,59 @@
+{
+  "name": "mongodb-winston-transport",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogiis98/mongodb-winston-transport.git"
+  },
+  "version": "1.0.0",
+  "public": true,
+  "description": "Mongodb transport for mongodb",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint": "eslint src",
+    "test": "mocha src/__tests__/**/*.js"
+  },
+  "bugs": {
+    "url": "https://github.com/yogiis98/mongodb-winston-transport/issues"
+  },
+  "homepage": "https://github.com/yogiis98/mongodb-winston-transport#readme",
+  "author": "Yogesh Yadav <yogeshyadavme@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "abstract-winston-transport": "^0.5.1",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "mocha": "^6.2.3",
+    "mongoose": "^5.9.7",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-node-externals": "^1.7.2",
+    "winston": "^3.2.1"
+  },
+  "peerDependencies": {
+    "winston": "^3.0.0"
+  },
+  "files": [
+    "dist/main.min.js"
+  ],
+  "keywords": [
+    "mongodb",
+    "winston",
+    "transport",
+    "node",
+    "javascript",
+    "log",
+    "logger",
+    "logging",
+    "tools"
+  ],
+  "typings": "./mongodb-winston-transport.d.ts",
+  "dependencies": {
+    "mongodb": "^3.5.5",
+    "winston-transport": "^4.3.0"
+  }
+}
