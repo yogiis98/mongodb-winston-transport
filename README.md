@@ -2,7 +2,7 @@
 
 A MongoDB transport for [winston][0].
 
-Current version supports only mongodb driver version 3.x and winston 3.x. 
+Current version supports only mongodb driver version 3.x and winston 3.x. Issues with official mongodb-winston resolved now mongodb-winston-transport transport agree with Winston latest API. Now you can easily log meta and info objects.
 
 
 ## Usage
